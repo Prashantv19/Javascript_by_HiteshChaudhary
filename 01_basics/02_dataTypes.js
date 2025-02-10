@@ -1,11 +1,10 @@
-"use strict"; //treat all code as newer version
+"use strict"; //treats all code as newer version
 
 // alert("hello") we are using nodejs, not browser so it shows error
 
-console.log(3
-    +3);  // Code readability should be high 
+console.log(3+3);  // Code readability should be high 
             //code should be clear and readable
-            //Use spaces and semicolon (;) at the wite place
+            //Use spaces and semicolon (;) at the right place
 
 console.log("Prashant");
 
@@ -19,7 +18,7 @@ let isLoggedIn = false
 //boolean -> ture/false
 //null -> standalone value
 //undefined-> which is not defined yet
-//Symbol -> uniqueness find kaene ke liye
+//Symbol -> uniqueness find karne ke liye
 
 console.log(typeof null)  // o/p -> object
 
