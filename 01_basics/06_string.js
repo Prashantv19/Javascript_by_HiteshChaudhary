@@ -36,4 +36,7 @@ console.log(URL.replace('%20','-'))    //kya hatana chahte ho  , kisase replace 
 console.log(URL.includes('prashant'));  //true or false return karega,,check karega ki string me hai ki nhi hai
 
 console.log(gameName.split());     //array me convert kar dega,,
-console.log(gameName.split('-'));     
+console.log(gameName.split('-')); 
+
+
+//Do practice more practice
