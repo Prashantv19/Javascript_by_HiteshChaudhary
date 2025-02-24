@@ -35,3 +35,31 @@ let o = {
 }
 console.log(o);
 
+
+//------------------------------------------------------------
+
+// Word-meaning dictionary
+const dictionary = {
+    "algorithm": "A step-by-step procedure to solve a problem.",
+    "variable": "A storage location identified by a memory address and a symbolic name.",
+    "function": "A reusable block of code that performs a specific task.",
+    "object": "An instance of a class that contains properties and methods.",
+    "array": "A collection of elements stored in a single variable."
+};
+
+// Function to get the meaning of a word
+function getMeaning(word) {
+    word = word.toLowerCase(); // Convert input to lowercase for case insensitivity
+    if (dictionary[word]) {
+        console.log(`Meaning of '${word}': ${dictionary[word]}`);
+    } else {
+        console.log(`The word '${word}' is not in the dictionary.`);
+    }
+}
+
+// Example usage
+getMeaning("algorithm");
+getMeaning("function");
+getMeaning("random");
+
+
