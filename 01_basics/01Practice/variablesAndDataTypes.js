@@ -104,7 +104,7 @@ let student = {
     Marks : 100
 }
 console.log(student);
-
+//--------------------------------------------------------------------------------
 const student1 = { 
     name : "PV",
     phoneNo: 8960729663, 
@@ -114,3 +114,19 @@ console.log(student1);
 student1.name = "Prashant Vishwakarma"  //this is allowed to change the value of object
 student1.phoneNo = 896072
 console.log(student1);
+
+//student1 = { age : 21 }
+   
+//console.log(student1);  //this is not allowed to redeclare the object
+//--------------------------------------------------------------------------------
+
+//writw a JS Program to create a word meaning dictionary of 5 words
+
+let dictionary = {
+    "Apple" : "सेब",
+    "Banana" : "केला",
+    "Mango" : "आम",
+    "Orange" : "संतरा",
+    "Grapes" : "अंगूर"
+}
+console.log(dictionary);
