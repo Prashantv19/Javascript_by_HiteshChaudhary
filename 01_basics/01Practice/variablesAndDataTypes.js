@@ -105,4 +105,12 @@ let student = {
 }
 console.log(student);
 
+const student1 = { 
+    name : "PV",
+    phoneNo: 8960729663, 
+}
+console.log(student1);
 
+student1.name = "Prashant Vishwakarma"  //this is allowed to change the value of object
+student1.phoneNo = 896072
+console.log(student1);
