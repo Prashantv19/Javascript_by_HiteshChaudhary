@@ -39,26 +39,32 @@ let y = 10
 
 
 //-----------------Conditional Statements-----------------
-if(x>y){
-    console.log("x is greater than y");
-}
-if(x<y){
-    console.log("y is greater than x");
-}
+// if(x>y){
+//     console.log("x is greater than y");
+// }
+// if(x<y){
+//     console.log("y is greater than x");
+// }
 
 
-if(x>y){
-    console.log("x is greater than y");
-}else{
-    console.log("y is greater than x");
-}
+// if(x>y){
+//     console.log("x is greater than y");
+// }else{
+//     console.log("y is greater than x");
+// }
 
 
 
-if(x<y){
-    console.log("x is less than y");
-}else if(x>y){
-    console.log("x is greater than y");
-}else{
-    console.log("x is equal to y");
-}
+// if(x<y){
+//     console.log("x is less than y");
+// }else if(x>y){
+//     console.log("x is greater than y");
+// }else{
+//     console.log("x is equal to y");
+// }
+
+
+// ternary operator
+console.log(x>y?"x is greater then y":"y is greater then x");
+let p = x>y?"x is greater then y":"y is greater then x"
+console.log(p);
